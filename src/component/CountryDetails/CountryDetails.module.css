@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 25vh;
+  width: 100%;
+}
+
+.subcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  margin-left: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flag {
+  width: auto;
+  height: 200px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+.header {
+  text-align: center;
+  max-width: 30%;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  margin-left: 70px;
+}
